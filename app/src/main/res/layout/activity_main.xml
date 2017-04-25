@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.059" />
 
     <TextView
-        android:id="@+id/percenttextView"
+        android:id="@+id/percentView"
         android:layout_width="71dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
@@ -75,7 +75,7 @@
         app:layout_constraintVertical_bias="0.349" />
 
     <TextView
-        android:id="@+id/tiptextView"
+        android:id="@+id/tipView"
         android:layout_width="71dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.563" />
 
     <TextView
-        android:id="@+id/totaltextView"
+        android:id="@+id/totalView"
         android:layout_width="71dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
