@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private static final NumberFormat percentFormat = getPercentInstance();
 
 
-    private double billAmount = 0.0; //amount edited by the user
+    private double billAmount = 0.00; //amount edited by the user
     private double percent = 0.15; // percent of tips
     private TextView percentView; // shows tip percent
     private TextView amountView; // shows the amount without tip
