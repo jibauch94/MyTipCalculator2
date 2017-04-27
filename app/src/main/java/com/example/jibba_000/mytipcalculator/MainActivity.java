@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private double billAmount = 0.0; //amount edited by the user
-    private double percent = .15; // percent of tips
+    private double percent = 0.15; // percent of tips
     private TextView percentView; // shows tip percent
     private TextView amountView; // shows the amount without tip
     private TextView totalLabelView; // shows total amount
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         totalLabelView.setText(currencyFormat.format(0)); //set text to 0
 
         //set edit amounts textWatcher
-        EditText amountEditText = (EditText) findViewById(R.id.editAmount);
+        EditText amountEditText = (EditText) findViewById(R.id.editTextAmount);
         amountEditText.addTextChangedListener(amountEditTextWatcher);
 
         // set seekbar
